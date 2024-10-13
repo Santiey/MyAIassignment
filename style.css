@@ -1,0 +1,66 @@
+body {
+    background: rgb(185, 224, 211);
+}
+
+.container {
+    margin: 120 auto;
+    max-width: 600px;;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.5;
+    color: black;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+form {
+    padding: 40px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.promp {
+    padding: 10px;
+    border: 1px solid grey;
+    width: 80px;
+    font-size: 18px;
+    border-radius: 50px;
+    line-height: 22px;
+    color: #282828
+}
+
+.button {
+    margin-left: 8px;
+    background: rgb(131, 93, 171);
+    color: #ffff;
+    border: none;
+    width: 150px;
+    border-radius: 50px;
+    padding: 14px 18px;
+}
+
+.quote {
+background-color: #fff;
+font-size: 18px;
+padding: 20px;
+line-height: 2;
+box-shadow: 8px 20px 60px rgb(203, 182, 186);
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+a {
+    color: rgb(131, 93, 171);
+}
