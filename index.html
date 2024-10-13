@@ -5,24 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI project</title>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <style src="index.html"></style>
 </head>
 <body>
-    <div>
+    <div class="container">
     <header>
     <h1>Welcome to AI Quotes Generator</h1>
     </header>
 
     <main>
-        <form>
+        <form id="qutes-genetator-form">
             <input type="text"
             placeholder="Enter text here....."
             autofocus
             required
-            autocomplete="off" />
+            autocomplete="off"
+            class="prompt" />
+            <input type="submit" class="button"/>
         </form>
-        <div>
-            The quotes will be header
+        <div class="quote">
+            The quotes will be here
             <br />
             .......
         </div>
